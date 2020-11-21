@@ -1,0 +1,14 @@
+Package: RashaFinal
+Type: Package
+Title: Mixture Normal Distribution and Weather Simulation
+Version: 0.1.0
+Author: Rasha Alsaadawi
+Maintainer: Rasha Alsaadawi <alsaadawir@vcu.edu>
+Description: The package has two functions: mix_norm and weather_simulator; mix_norm takes  five arguments (p,mu1,mu2,sigma1,sigma2) to sample Y from the mixture normal distribution; weather_simulator takes inthe weather today (sunny/rainy) and simulates the weather condition and rainfall in inches for the next 10 days.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    markovchain,
+    purrr
+RoxygenNote: 7.1.1
